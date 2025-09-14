@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="icon" href="../images/A favicon.png" />
+    <title>Contact | Adrianna Ciccarelli</title>
+  </head>
+  <body>
+    <header class="nav">
+      <div class="container nav__inner">
+        <a class="brand" href="./index.html">
+          <img src="../images/ID logo.png" alt="Logo" />
+          <strong>Adrianna Ciccarelli</strong>
+        </a>
+        <nav class="menu">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./portfolio.html">Portfolio</a>
+          <a href="./contact.html" aria-current="page">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Contact</h1>
+        <p class="muted">Let's build engaging learning experiences together.</p>
+      </div>
+    </section>
+
+    <main class="container">
+      <article class="project project--contact">
+        <figure>
+          <img src="../images/selfie.png" alt="Adrianna portrait" />
+        </figure>
+        <div>
+          <h3>Send me a message</h3>
+          <p class="muted">I'll get back to you as soon as I can.</p>
+          <form action="https://formspree.io/f/xeoldwnv" method="POST">
+            enctype="text/plain" >
+            <div class="form-grid">
+              <input
+                class="form-input"
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+              <input
+                class="form-input"
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                class="form-textarea"
+                name="message"
+                rows="5"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button class="btn" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="section__head">
+          <h2>Let's Work Together</h2>
+          <span class="muted"> To craft engaging story-driven learning.</span>
+        </div>
+        <div class="footer-logo">
+          <a class="btn" href="./contact.html">Contact Me</a>
+          <img src="../images/ID logo.png" alt="Logo" class="footer-logo" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
