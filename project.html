@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,11 +23,28 @@
   <body>
     <header class="nav">
       <div class="container nav__inner">
-        <a class="brand" href="index.html">
+        <a class="brand" href="./index.html">
           <img src="../images/ID logo.png" alt="Logo" />
           <strong>Adrianna Ciccarelli</strong>
         </a>
         <nav class="menu">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="project.html">Featured Project</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <!-- hamburger-menu -->
+        <div class="mobile-menu-toggle">
+          <i class="fas fa-bars fa-2x"></i>
+        </div>
+      </div>
+
+      <!-- Mobile-Menu -->
+
+      <div class="mobile-menu">
+        <!-- Mobile-menu-items -->
+        <nav class="mobile-menu-items">
           <a href="index.html">Home</a>
           <a href="about.html">About</a>
           <a href="portfolio.html">Portfolio</a>
@@ -33,6 +57,7 @@
       <div class="Featured-project">
         <h1>Featured eLearning Project</h1>
       </div>
+
       <!-- Project Intro -->
       <section>
         <div class="featured-project-intro">
@@ -360,5 +385,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>

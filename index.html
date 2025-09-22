@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,33 +34,49 @@
           <a href="project.html">Featured Project</a>
           <a href="contact.html">Contact</a>
         </nav>
+        <!-- hamburger-menu -->
+        <div class="mobile-menu-toggle">
+          <i class="fas fa-bars fa-2x"></i>
+        </div>
+      </div>
+
+      <!-- Mobile-Menu -->
+
+      <div class="mobile-menu">
+        <!-- Mobile-menu-items -->
+        <nav class="mobile-menu-items">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="project.html">Featured Project</a>
+          <a href="contact.html">Contact</a>
+        </nav>
       </div>
     </header>
 
-    <section class="hero">
-      <div class="container hero__grid">
-        <div>
-          <h1>Hi, I'm Adrianna</h1>
-          <p>
-            I craft engaging, story-driven learning that enhances performance.
-          </p>
-          <div class="hero__actions">
-            <a class="btn" href="portfolio.html">View Portfolio</a>
-            <a
-              class="btn"
-              href="https://drive.google.com/file/d/19XMT6cGtF-UOJ-h4Sqc1Kmz36ptbaXyA/view"
-              target="_blank"
-              >View Resume</a
-            >
+    <section class="container">
+      <section class="hero">
+        <div class="container hero__grid">
+          <div>
+            <h1>Hi, I'm Adrianna</h1>
+            <p>
+              I craft engaging, story-driven learning that enhances performance.
+            </p>
+            <div class="hero__actions">
+              <a class="btn" href="portfolio.html">View Portfolio</a>
+              <a
+                class="btn"
+                href="https://drive.google.com/file/d/19XMT6cGtF-UOJ-h4Sqc1Kmz36ptbaXyA/view"
+                target="_blank"
+                >View Resume</a
+              >
+            </div>
+          </div>
+          <div class="hero__img">
+            <img src="../images/Self photo.jpeg" alt="Adrianna" />
           </div>
         </div>
-        <div class="hero__img">
-          <img src="../images/Self photo.jpeg" alt="Adrianna" />
-        </div>
-      </div>
-    </section>
-
-    <section class="container">
+      </section>
       <div class="section__head">
         <h2>Featured eLearning Projects</h2>
         <span class="muted">Selected work</span>
@@ -83,7 +106,7 @@
           </p>
           <div class="flexactions">
             <div class="actions">
-              <a class="btn" href="./project.html">Click to Learn More</a>
+              <a class="btn" href="./project.html">Learn More</a>
             </div>
             <div class="actions">
               <a
@@ -211,7 +234,7 @@
                 class="btn"
                 href="https://docs.google.com/document/d/1OILfoo_8gaukC_rvmDq8YmLDqHhqIS3hTo1AY3CeSzk/edit?usp=sharing"
                 target="_blank"
-                >View Course Outline</a
+                >Course Outline</a
               >
             </div>
             <div class="actions">
@@ -239,5 +262,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
