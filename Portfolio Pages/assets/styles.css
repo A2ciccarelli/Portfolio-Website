@@ -14,6 +14,7 @@
 html,
 body {
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   background: var(--bg);
@@ -33,7 +34,8 @@ a {
 }
 
 .container {
-  max-width: 1500px;
+  max-width: 1200px;
+
   margin: 0 auto;
   padding: 0;
 }
@@ -2035,18 +2037,22 @@ header.nav {
     gap: 1rem;
     flex-wrap: wrap;
   }
+  .home .hero__actions .btn {
+    font-size: 0.8rem;
+    padding: 0.6rem 0.8rem;
+  }
 
   .section__head {
     align-items: center;
   }
   .section__head h2 {
     font-size: 1.4rem;
-    text-align: center;
+    /* text-align: center; */
     margin-left: 1rem;
   }
-  .section__head span {
+  /* .section__head span {
     display: none;
-  }
+  } */
 
   .flexactions .btn {
     font-size: 0.8rem;
@@ -2058,7 +2064,7 @@ header.nav {
   /* About Page */
 
   .hero-about p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .hero-about img {
     width: 160px;
@@ -2067,9 +2073,9 @@ header.nav {
   .aboutme p {
     margin-bottom: 1rem;
   }
-  .hero__actions .btn {
-    font-size: 1.2rem;
-    padding: 0.75rem 1rem;
+  .aboutme .hero__actions .btn {
+    font-size: 0.8rem;
+    padding: 0.6rem 0.8rem;
   }
   /* Featured Project */
   .Featured-project h1 {
@@ -2157,22 +2163,25 @@ header.nav {
     font-size: 1.2rem;
   }
 
-  .muted {
+  /* .muted {
     text-align: center;
-  }
+  } */
   .project--contact {
     margin: 0 0;
   }
   /* Footer */
+
   .footer span {
     text-align: right;
     font-size: 0.9rem;
   }
   .footer h2 {
     font-size: 1.15rem;
+    margin-left: 0;
   }
   .footer-logo .btn {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    padding: 0.6rem 0.8rem;
   }
   .footer {
     margin-bottom: 1rem;
