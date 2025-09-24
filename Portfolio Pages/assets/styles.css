@@ -26,6 +26,7 @@ body {
   scroll-behavior: smooth;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 a {
@@ -131,12 +132,13 @@ header.nav {
   top: 100%;
   left: 0;
   width: 100%;
+  right: 0;
   background: var(--surface);
   opacity: 0.95;
   padding: 3rem 2rem;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transform: translateX(100%);
+  transform: translateX(100vw);
   transition: transform 0.3s ease;
 }
 
@@ -150,7 +152,7 @@ header.nav {
 }
 
 .mobile-menu-items.active {
-  transform: translateX(0);
+  transform: translateX(0vw);
 }
 /* Footer */
 .footer {
